@@ -1,0 +1,73 @@
+Cervuz™ - File Protector
+© 2017 - 2024 Cervuz Systems™ - Ari Sohandri Putra. All rights reserved.
+---------------------------------
+Change Log :
+---------------------------------
+3.3 Build 120624 (2024-06-12)
+- Updated protection and encryption algorithms.
+- The BUGs were fixed :
+  Fix crash when generate new vektor.
+  Fix multiple files selection problem.
+---------------------------------
+3.2 Build 101123 (2023-11-10)
+- Updated protection and encryption algorithms.
+- This version can run on Windows 11.
+- Fix error code_323.
+- Change protection method on Windows Vista/7.
+---------------------------------
+3.1 Build 220121 (2021-01-11)
+- Updated protection and encryption algorithms.
+- This version can no longer run on Windows XP. this is the last version that can run on Windows XP.
+- Fix Crashed Vektor when extracting files.
+- Remove InetPTSL support for automatic backup.
+---------------------------------
+3.0 Build 151020 (2020-10-15)
+- Updated protection and encryption algorithms.
+- Fix BUGs were fixed :
+  Fix multiple files selection problem.
+  Fix modify generate salt algorithm.
+  Fix rename function (error_b42)
+---------------------------------
+2.9 Build 02092019 (2019-09-02)
+- Modify User Interface like (Menu and File Listview).
+- Optimize archive compression.
+---------------------------------
+2.8 Build 14052019 (2019-05-14)
+- Updated protection and encryption algorithms.
+- Add an archive protection method with a code block from a combination of RAM and processor that is automatically generated with a password.
+- Fix errors when linking large files.
+- Optimize add files function (which supports all file types/formats).
+---------------------------------
+2.7 Build 22102018 (2018-10-22)
+- Updated protection and encryption algorithms.
+- Added full screen function (F11).
+- Fix Error during file extraction.
+- Fix false-report from antivirus (Detected as Virus by Windows Defender Windows 10).
+- Fix bugs that often occur in Windows Vista.
+---------------------------------
+2.6 Build 29082018 (2018-08-29)
+- Updated protection and encryption algorithms.
+- Removed the theme change function (which could interfere or crash).
+---------------------------------
+2.5 Build 17022018 (2018-02-17)
+- Optimize the performance of the encryption process on Windows Vista/7/8.
+---------------------------------
+2.4 Beta 4 (2018-01-20)
+- The stage of testing functions and improving the interface in the previous beta version.
+- Reorganize the interface layout.
+---------------------------------
+2.3 Build 02122017 (2017-12-02)
+- Improved the function during password generation.
+---------------------------------
+2.2 Beta 3 (2017-10-10)
+- Fix tbb.dll support on Windows Vista/7.
+---------------------------------
+2.1 Beta 2 (2017-08-02)
+- Fix Bug in Windows 10 (problem with archiving and protection).
+- Added CervuzEngine to archive and encrypt.
+- Remove the background on the main menu.
+---------------------------------
+2.0 Beta 1 (2017-05-23)
+---------------------------------
+1.0 In the development project. 
+---------------------------------

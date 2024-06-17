@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase | Cervuz™ - File Protector</title>
+    <meta name="keywords" content="Cervuz™, Cervuz™ - File Protector, optimization, performance, speed">
+     <link href="img/icon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <style>
+        body { color: black; background-color: white; font-family: Verdana, Arial, Helvetica; font-size: 100%; }
+        h1, h2, h4 { text-align: center; }
+        h1 { font-size: 2em; }
+        h2 { font-size: 1.5em; }
+        h4 { font-size: 1.2em; }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .menu { background-color: #E0E0E0; padding: 20px; }
+        .menu a { display: block; padding: 10px 0; color: blue; text-decoration: none; }
+        .menu a:hover { color: green; }
+        .menu .current { font-weight: bold; }
+        .menu img { max-width: 100%; height: auto; }
+        .content { background-color: white; padding: 20px; }
+        .features, .benefits, .comparison { margin: 20px 0; }
+        .slideshow { position: relative; text-align: center; margin: 20px 0; }
+        .slideshow img { max-width: 100%; height: auto; display: none; }
+        .slideshow img.active { display: block; }
+        .slideshow-controls { position: absolute; top: 50%; left: 0; right: 0; }
+        .slideshow-controls button { background-color: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px 20px; margin: 0 10px; cursor: pointer; }
+        .slideshow-controls button:hover { background-color: rgba(0, 0, 0, 0.7); }
+        .slideshow-caption { margin-top: 10px; }
+        .slideshow-caption h3 { font-size: 1.2em; }
+
+        .download-table { width: 100%; margin: 20px 0; border-collapse: collapse; }
+        .download-table th, .download-table td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+        .news { background-color: silver; margin: 20px 0; padding: 10px; }
+        .news-header { background-color: #8080E0; color: white; font-weight: bold; padding: 10px; }
+        .news-item { background-color: #FFF8F8; padding: 10px; }
+        .footer { text-align: center; padding: 20px; background-color: #f1f1f1; }
+        .paypal-button { text-align: center; margin: 20px 0; }
+        .cookie-consent { position: fixed; bottom: 0; left: 0; right: 0; background: #000; color: #fff; padding: 10px; text-align: center; display: none; z-index: 1000; }
+        .cookie-consent button { background: #f1d600; border: none; padding: 5px 10px; cursor: pointer; }
+
+        @media (min-width: 600px) {
+            .menu { max-width: 200px; margin: 0 auto; }
+            .logo { float: left; margin-right: 20px; }
+            .paypal-button { text-align: right; }
+        }
+
+        .logo { text-align: center; margin-bottom: 20px; }
+        .logo img { max-width: 250px; height: auto; }
+
+        .buy-now-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .buy-now-button:hover {
+            background-color: #45a049;
+        }
+
+        .buy-now-paypal-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #003087;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .buy-now-paypal-button:hover {
+            background-color: #001e5e;
+        }
+
+        ..purchase-table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .purchase-table th, .purchase-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+
+        .purchase-table th {
+            background-color: #8080E0;
+            color: white;
+            font-size: 1.1em;
+            font-weight: normal;
+        }
+
+        .purchase-table td {
+            font-size: 1em;
+        }
+
+        .purchase-table .price {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #ff0000;
+        }
+        .pay {
+        width: 200px; /* Lebar gambar */
+        height: auto; /* Tinggi otomatis disesuaikan */
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="img/head.png" alt="Cervuz" border="0"></a>
+        </div>
+        <div class="content">
+            <h2>Complete Your Purchase - Cervuz™ - File Protector</h2>
+            
+            <div class="purchase">
+                <table class="purchase-table">
+                    <tr>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Check Out</th>
+                    </tr>
+                    <tr>
+                        <td>Lifetime License</td>
+                        <td class="price">$34.88 USD</td>
+                        <td><a href="https://www.paypal.com/ncp/payment/H3H9E6ZNVUHE2" target="_blank"><img src="img/pay1.png" width="200" height="auto"></a></td>
+                    </tr>
+                </table>
+            </div>
+             <div class="benefits">
+                <h2>Purchase confirmation</h2>
+                <p>After completing the purchase, please confirm to the email address listed below, by sending a confirmation message such as :</p>
+                <hr>
+                <i>Subject : Purchase Confirmation <br>
+                Message : [Your Name] and attach a Proof of Purchase file (such as a printout or screenshot).</i>
+                <hr>
+                <p>E-mail : <a href="mailto:cervuzsystems@hotmail.com">cervuzsystems@hotmail.com</a></p>
+                <p>After Confirming, we will immediately reply to your message by sending your Registration Key.</p>
+            </div>
+             <div class="benefits">
+                <h2>How to Registration ?</h2>
+                <div class="slideshow">
+                <img src="img/reg1.png" alt="Capture" class="active">
+                </div>
+                <ul>
+                    <li>After you get <b>(Name, Registration Key)</b>, please fill in the name and registration key we gave you on the registration form in the program like the screenshot above.</li>
+                    <li>After that, press the <b>Register</b> button, and a successful registration message will appear, and just press <b>OK</b>.</li>
+                    <li>Then the notification will appear again to close the program, and please reopen it from the start menu or Desktop and to know more deeply whether you are registered, please go to the <b>Help</b> > <b>About Cervuz™</b> menu.</li>
+                </ul>
+            </div>
+            <div class="benefits">
+                <h2>The Benefits of Using Cervuz</h2>
+                <ul>
+                    <li><b>Maximum Data Security:</b> With AES-256 encryption and the use of unique salt, your data is protected with the highest level of security.</li>
+                    <li><b>Storage Efficiency:</b> Data compression helps reduce file size, saving you storage space.</li>
+                    <li><b>Ease of Use:</b> Intuitive progress reporting makes it easy for users to monitor the process without confusion.</li>
+                    <li><b>Reliability:</b> Error handling mechanisms ensure that the encryption and decryption process runs smoothly and securely.</li>
+                </ul>
+            </div>
+             <div class="news">
+                <div class="news-header">Cervuz 3.3 Released</div>
+                <div class="news-item">
+                    <a href="Release Notes.txt">Cervuz 3.3 Release Notes</a>
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2017 - 2024 Cervuz Systems™ - Ari Sohandri Putra. All rights reserved. <a href="license.txt">Read Cervuz Systems™ License.</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            document.getElementById('cookieConsent').style.display = 'none';
+            // Optionally, add code here to set a cookie or store consent status
+        }
+
+        // Display cookie consent banner if not previously accepted
+        if (!document.cookie.includes('cookiesAccepted=true')) {
+            document.getElementById('cookieConsent').style.display = 'block';
+        }
+        // Ambil elemen gambar berdasarkan ID
+    var imgElement = document.getElementById('gambarPay');
+
+    // Tambahkan event listener untuk mouseenter
+    imgElement.addEventListener('mouseenter', function() {
+        // Ganti gambar menjadi pay2.png saat mouse masuk
+        this.src = 'img/pay2.png';
+    });
+
+    // Tambahkan event listener untuk mouseleave
+    imgElement.addEventListener('mouseleave', function() {
+        // Ganti gambar kembali menjadi pay1.png saat mouse keluar
+        this.src = 'img/pay1.png';
+    });
+    </script>
+</body>
+</html>

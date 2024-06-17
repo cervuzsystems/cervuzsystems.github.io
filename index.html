@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervuz™ - File Protector</title>
+    <meta name="keywords" content="Cervuz™, Cervuz™ - File Protector, optimization, performance, speed">
+    <link href="img/icon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <style>
+        body { color: black; background-color: white; font-family: Verdana, Arial, Helvetica; font-size: 100%; }
+        h1, h2, h4 { text-align: center; }
+        h1 { font-size: 2em; }
+        h2 { font-size: 1.5em; }
+        h4 { font-size: 1.2em; }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .menu { background-color: #E0E0E0; padding: 20px; }
+        .menu a { display: block; padding: 10px 0; color: blue; text-decoration: none; }
+        .menu a:hover { color: green; }
+        .menu .current { font-weight: bold; }
+        .menu img { max-width: 100%; height: auto; }
+        .content { background-color: white; padding: 20px; }
+        .features, .benefits, .comparison { margin: 20px 0; }
+        .slideshow { position: relative; text-align: center; margin: 20px 0; }
+        .slideshow img { max-width: 100%; height: auto; display: none; }
+        .slideshow img.active { display: block; }
+        .slideshow-controls { position: absolute; top: 50%; left: 0; right: 0; }
+        .slideshow-controls button { background-color: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px 20px; margin: 0 10px; cursor: pointer; }
+        .slideshow-controls button:hover { background-color: rgba(0, 0, 0, 0.7); }
+        .slideshow-caption { margin-top: 10px; }
+        .slideshow-caption h3 { font-size: 1.2em; }
+
+        .download-table { width: 100%; margin: 20px 0; border-collapse: collapse; }
+        .download-table th, .download-table td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+        .news { background-color: silver; margin: 20px 0; padding: 10px; }
+        .news-header { background-color: #8080E0; color: white; font-weight: bold; padding: 10px; }
+        .news-item { background-color: #FFF8F8; padding: 10px; }
+        .footer { text-align: center; padding: 20px; background-color: #f1f1f1; }
+        .paypal-button { text-align: center; margin: 20px 0; }
+        .cookie-consent { position: fixed; bottom: 0; left: 0; right: 0; background: #000; color: #fff; padding: 10px; text-align: center; display: none; z-index: 1000; }
+        .cookie-consent button { background: #f1d600; border: none; padding: 5px 10px; cursor: pointer; }
+
+        @media (min-width: 600px) {
+            .menu { max-width: 200px; margin: 0 auto; }
+            .logo { float: left; margin-right: 20px; }
+            .paypal-button { text-align: right; }
+        }
+
+        .logo { text-align: center; margin-bottom: 20px; }
+        .logo img { max-width: 250px; height: auto; }
+
+        .buy-now-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8080E0;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .buy-now-button:hover {
+            background-color: #5e5ed0;
+        }
+
+        .purchase-table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .purchase-table th, .purchase-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+
+        .purchase-table th {
+            background-color: #8080E0;
+            color: white;
+            font-size: 1.1em;
+            font-weight: normal;
+        }
+
+        .purchase-table td {
+            font-size: 1em;
+        }
+
+        .purchase-table .price {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #ff0000;
+        }
+        .pay {
+        width: 200px; /* Lebar gambar */
+        height: auto; /* Tinggi otomatis disesuaikan */
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="img/head.png" alt="Cervuz" border="0"></a>
+        </div>
+        <div class="content">
+            <p><b>Cervuz™ - File Protector</b> is a software solution designed to provide encrypted archive protection with the highest level of security. The program allows users to create encrypted file archives by using AES-256 encryption technology, ensuring that your data remains safe from unauthorized access.</p>
+            
+            <div class="slideshow">
+                <img src="img/capture.png" alt="Capture" class="active">
+                <img src="img/capture1.png" alt="Capture 1">
+                <img src="img/capture2.png" alt="Capture 2">
+                <img src="img/capture3.png" alt="Capture 3">
+                <div class="slideshow-caption">
+                    <h3>Explore the features of Cervuz™ - File Protector</h3>
+                </div>
+            </div>
+
+            <div class="purchase">
+                <h2 style="color: red;">Get Cervuz™ - File Protector</h2>
+                <table class="purchase-table">
+                    <tr>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Get Now</th>
+                    </tr>
+                    <tr>
+                        <td>Lifetime License</td>
+                        <td class="price">$34.88 USD</td>
+                        <td><a href="purchase.html"><img class="pay" src="img/pay1.png" width="200" height="auto"></a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <p><b>Download <b style="color:red;">TRIAL</b> Cervuz - File Protector 3.3 Build 120624 (2024-06-12) for Windows</b>:</p>
+            <table class="download-table">
+                <tr>
+                    <th>Link</th>
+                    <th>Type</th>
+                    <th>Compatible</th>
+                    <th>Size</th>
+                </tr>
+                <tr>
+                    <td><a href="f/Cervuzsetup_x86_64.7z">Download</a></td>
+                    <td>.7z</td>
+                    <td>Windows Vista/7/8/10/11 x86/x64-bit</td>
+                    <td>1,47 MB</td>
+                </tr>
+            </table>
+
+            <div class="features">
+                <h2>Main Features</h2>
+                <ul>
+                    <li><b>Encryption with AES-256</b></li>
+                    <p>Cervuz utilizes AES-256 encryption for every file in the archive, providing a reliable high level of security to protect your sensitive data.</p>
+                    <li><b>Use of Unique Salt</b></li>
+                    <p>Each file is encrypted with a unique salt, which is randomly generated, reducing the risk of brute-force attacks and increasing encryption security.</p>
+                    <li><b>Data Compression</b></li>
+                    <p>Archives are encrypted and compressed using CervuzEngine, saving storage space and making file management easier.</p>
+                    <li><b>Good Error Handling</b></li>
+                    <p>Cervuz has a robust error handling mechanism, including special handling for password errors and temporary file management to ensure process integrity.</p>
+                    <li><b>Temporary File Deletion</b></li>
+                    <p>Once the encryption or decryption process is complete, all temporary files used will be deleted automatically to keep the system clean and secure.</p>
+                </ul>
+            </div>
+
+            <div class="news">
+                <div class="news-header">Cervuz 3.3 Released</div>
+                <div class="news-item">
+                    <a href="Release Notes.txt">Cervuz 3.3 Release Notes</a>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>&copy; 2017 - 2024 Cervuz Systems™ - Ari Sohandri Putra. All rights reserved. <a href="license.txt">Read Cervuz Systems™ License.</a></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Automatic Slideshow
+        let slideIndex = 0;
+        const slides = document.getElementsByClassName("slideshow")[0].getElementsByTagName("img");
+        
+        function showSlides() {
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        showSlides();
+
+        // Next/previous controls
+        function nextSlide() {
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            showSlide(slideIndex);
+        }
+
+        function prevSlide() {
+            slideIndex--;
+            if (slideIndex < 1) {slideIndex = slides.length}
+            showSlide(slideIndex);
+        }
+
+        function showSlide(index) {
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slides[index-1].style.display = "block";  
+        }
+
+        function acceptCookies() {
+            document.getElementById('cookieConsent').style.display = 'none';
+            // Optionally, add code here to set a cookie or store consent status
+        }
+
+        // Display cookie consent banner if not previously accepted
+        if (!document.cookie.includes('cookiesAccepted=true')) {
+            document.getElementById('cookieConsent').style.display = 'block';
+        }
+         var imgElement = document.getElementById('pay');
+
+    // Tambahkan event listener untuk mouseenter
+    imgElement.addEventListener('mouseenter', function() {
+        // Ganti gambar menjadi pay2.png saat mouse masuk
+        this.src = 'img/pay2.png';
+    });
+
+    // Tambahkan event listener untuk mouseleave
+    imgElement.addEventListener('mouseleave', function() {
+        // Ganti gambar kembali menjadi pay1.png saat mouse keluar
+        this.src = 'img/pay1.png';
+    });
+    </script>
+</body>
+</html>
